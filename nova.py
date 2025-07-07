@@ -1,5 +1,5 @@
 import sys, os,time
-components_path = os.path.join(os.getcwd(), "COMPONENTS")
+components_path = os.path.join(os.getcwd(), "components")
 col = os.get_terminal_size().columns
 lin = os.get_terminal_size().lines
 if os.path.exists(components_path):
